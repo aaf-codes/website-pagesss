@@ -1,0 +1,21 @@
+.programs-page {
+  padding-bottom: 4rem;
+}
+
+.programs-page .card {
+  transition: all 0.3s ease;
+  border: 1px solid var(--surface-2);
+  display: flex;
+  flex-direction: column;
+}
+
+.programs-page .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1) !important;
+  border-color: var(--primary-light);
+}
+
+.bg-primary-light {
+  background-color: var(--primary);
+  opacity: 0.8;
+}

@@ -1,0 +1,22 @@
+.hackathon-register-page {
+  background-color: var(--background);
+}
+
+.form-label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.text-danger {
+  color: #ef4444;
+}
+
+.text-green {
+  color: #10b981;
+}
+
+.alert-danger {
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
